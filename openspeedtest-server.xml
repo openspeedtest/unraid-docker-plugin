@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<Container version="2">
+  <Name>Openspeeedtest-Server</Name>
+  <Repository>openspeedtest/latest</Repository>
+  <Registry>https://hub.docker.com/repository/docker/openspeedtest/latest</Registry>
+  <Network>bridge</Network>
+  <MyIP/>
+  <Shell>sh</Shell>
+  <Privileged>false</Privileged>
+  <Support>http://openspeedtest.com/admin/Contact-us.php</Support>
+  <Project>http://openspeedtest.com/</Project>
+  <Overview>OpenSpeedTest-Server Plugin for UNRAID | HTML5 Network Performance Estimation Tool.&#xD;
+&#xD;
+You can Test your WiFi/LAN Speed.&#xD;
+-Run a Speed Test from Your SMART TV &amp;amp; Make sure you have enough Bandwidth to watch 4K60FPS VIDEO FROM your NAS.&#xD;
+-Run a Speed Test from Any Device with a Web Browser that is Internet Explore 10 or New!&#xD;
+-Run a Quick speed test to your work place server via VPN and make sure you have enough bandwidth to finish your job. Install this in your Office Server.&#xD;
+&#xD;
+-An application for launching a quick speed test server. Without using any commands!&#xD;
+&#xD;
+Light Weight HTML5 Network Speed Test written in Pure Vanilla Javascript - Less than 5Kb Gzip.&#xD;
+&#xD;
+No PHP or any other Server side Language required. Very little resource utilization. All you need is a Web Server Like Nginx.&#xD;
+&#xD;
+First test your local network speed before pointing fingers towards your ISP for slow and sluggish internet experience. Introducing Network Speed Test Server for Windows , Mac &amp;amp; Linux!. For professionals docker image and source code available.&#xD;
+</Overview>
+  <Category>Tools: Network:Web</Category>
+  <WebUI>http://Your-NAS-IP:3001</WebUI>
+  <TemplateURL/>
+  <Icon>https://raw.githubusercontent.com/openspeedtest/iocage-plugin-OpenSpeedTest-Server/master/openspeedtest.png</Icon>
+  <ExtraParams/>
+  <PostArgs/>
+  <CPUset/>
+  <DateInstalled>1595617605</DateInstalled>
+  <DonateText>Keep us Alive</DonateText>
+  <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=TY2D56BYPKEXU</DonateLink>
+  <Description>OpenSpeedTest-Server Plugin for UNRAID | HTML5 Network Performance Estimation Tool.&#xD;
+&#xD;
+You can Test your WiFi/LAN Speed.&#xD;
+-Run a Speed Test from Your SMART TV &amp;amp; Make sure you have enough Bandwidth to watch 4K60FPS VIDEO FROM your NAS.&#xD;
+-Run a Speed Test from Any Device with a Web Browser that is Internet Explore 10 or New!&#xD;
+-Run a Quick speed test to your work place server via VPN and make sure you have enough bandwidth to finish your job. Install this in your Office Server.&#xD;
+&#xD;
+-An application for launching a quick speed test server. Without using any commands!&#xD;
+&#xD;
+Light Weight HTML5 Network Speed Test written in Pure Vanilla Javascript - Less than 5Kb Gzip.&#xD;
+&#xD;
+No PHP or any other Server side Language required. Very little resource utilization. All you need is a Web Server Like Nginx.&#xD;
+&#xD;
+First test your local network speed before pointing fingers towards your ISP for slow and sluggish internet experience. Introducing Network Speed Test Server for Windows , Mac &amp;amp; Linux!. For professionals docker image and source code available.&#xD;
+</Description>
+  <Networking>
+    <Mode>bridge</Mode>
+    <Publish>
+      <Port>
+        <HostPort>3001</HostPort>
+        <ContainerPort>8080</ContainerPort>
+        <Protocol>tcp</Protocol>
+      </Port>
+    </Publish>
+  </Networking>
+  <Data/>
+  <Environment/>
+  <Labels/>
+  <Config Name="port" Target="8080" Default="" Mode="tcp" Description="Access Your SpeedTest WEB GUI via&#13;&#10; http://Your-NAS-IP:3001 " Type="Port" Display="always" Required="false" Mask="false">3001</Config>
+</Container>
