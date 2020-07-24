@@ -7,7 +7,7 @@
   <MyIP/>
   <Shell>sh</Shell>
   <Privileged>false</Privileged>
-  <Support>http://openspeedtest.com/admin/Contact-us.php</Support>
+  <Support>http://openspeedtest.com/Contact-us.php</Support>
   <Project>http://openspeedtest.com/</Project>
   <Overview>OpenSpeedTest-Server Plugin for UNRAID | HTML5 Network Performance Estimation Tool.&#xD;
 &#xD;
