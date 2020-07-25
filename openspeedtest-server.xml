@@ -24,7 +24,7 @@ No PHP or any other Server side Language required. Very little resource utilizat
 &#xD;
 First test your local network speed before pointing fingers towards your ISP for slow and sluggish internet experience. Introducing Network Speed Test Server for Windows , Mac &amp;amp; Linux!. For professionals docker image and source code available.&#xD;
 </Overview>
-  <Category>Network:Web</Category>
+  <Category>Tools, Network:Web</Category>
   <WebUI>http://Your-NAS-IP:3001</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/openspeedtest/iocage-plugin-OpenSpeedTest-Server/master/openspeedtest.png</Icon>
