@@ -26,7 +26,7 @@ No PHP or any other Server side Language required. Very little resource utilizat
 First test your local network speed before pointing fingers towards your ISP for slow and sluggish internet experience. Introducing Network Speed Test Server for Windows , Mac &amp;amp; Linux!. For professionals docker image and source code available.&#xD;
 </Overview>
   <Category>Tools:Utilities Network:Web</Category>
-  <WebUI>http://[IP]:[PORT:3001]</WebUI>
+  <WebUI>http://[IP]:[PORT:3000]</WebUI>
   <TemplateURL/>
   <Icon>https://raw.githubusercontent.com/openspeedtest/iocage-plugin-OpenSpeedTest-Server/master/openspeedtest.png</Icon>
   <ExtraParams/>
@@ -54,8 +54,8 @@ First test your local network speed before pointing fingers towards your ISP for
     <Mode>bridge</Mode>
     <Publish>
       <Port>
-        <HostPort>3001</HostPort>
-        <ContainerPort>8080</ContainerPort>
+        <HostPort>3000</HostPort>
+        <ContainerPort>3000</ContainerPort>
         <Protocol>tcp</Protocol>
       </Port>
     </Publish>
@@ -63,5 +63,5 @@ First test your local network speed before pointing fingers towards your ISP for
   <Data/>
   <Environment/>
   <Labels/>
-  <Config Name="port" Target="8080" Default="" Mode="tcp" Description="Access Your SpeedTest WEB GUI via&#13;&#10; http://Your-NAS-IP:3001 " Type="Port" Display="always" Required="false" Mask="false">3001</Config>
+  <Config Name="port" Target="8080" Default="" Mode="tcp" Description="Access Your SpeedTest WEB GUI via&#13;&#10; http://Your-NAS-IP:3000 " Type="Port" Display="always" Required="false" Mask="false">3000</Config>
 </Container>
