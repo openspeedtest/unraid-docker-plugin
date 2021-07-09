@@ -63,5 +63,5 @@ First test your local network speed before pointing fingers towards your ISP for
   <Data/>
   <Environment/>
   <Labels/>
-  <Config Name="port" Target="8080" Default="" Mode="tcp" Description="Access Your SpeedTest WEB GUI via&#13;&#10; http://Your-NAS-IP:3000 " Type="Port" Display="always" Required="false" Mask="false">3000</Config>
+  <Config Name="port" Target="3000" Default="" Mode="tcp" Description="Access Your SpeedTest WEB GUI via&#13;&#10; http://Your-NAS-IP:3000 " Type="Port" Display="always" Required="false" Mask="false">3000</Config>
 </Container>
