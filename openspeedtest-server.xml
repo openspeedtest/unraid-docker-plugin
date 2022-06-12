@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>OpenSpeedTest-Server-For-LAN-WiFI-HTML5-Network-Speed-Test</Name>
+  <Name>SpeedTest-by-OpenSpeedTest</Name>
   <Repository>openspeedtest/latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/openspeedtest/latest</Registry>
   <Network>bridge</Network>
