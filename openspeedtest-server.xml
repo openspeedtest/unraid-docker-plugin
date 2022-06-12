@@ -1,6 +1,7 @@
+
 <?xml version="1.0"?>
 <Container version="2">
-  <Name>SpeedTest-by-OpenSpeedTest</Name>
+  <Name>SpeedTest-By-OpenSpeedTest</Name>
   <Repository>openspeedtest/latest</Repository>
   <Registry>https://hub.docker.com/repository/docker/openspeedtest/latest</Registry>
   <Network>bridge</Network>
@@ -9,59 +10,63 @@
   <Privileged>false</Privileged>
   <Support>http://openspeedtest.com/Contact-us.php</Support>
   <Project>http://openspeedtest.com/</Project>
-  <Overview>OpenSpeedTest-Server Plugin for UNRAID | HTML5 Network Performance Estimation Tool.&#xD;
+  <Overview>An application for launching HTML5 Network Speed Test Server. You can test download &amp;amp; upload speed from any device within your network with a web browser that is IE10 or new.&#xD;
+Create Your Own HTML5 Network SpeedTest Server?&#xD;
+1) Install App&#xD;
+2) Now open your browser and direct it to:&#xD;
 &#xD;
-You can Test your WiFi/LAN Speed.&#xD;
--Run a Speed Test from Your SMART TV &amp;amp; Make sure you have enough Bandwidth to watch 4K60FPS VIDEO FROM your NAS.&#xD;
--Run a Speed Test from Any Device with a Web Browser that is Internet Explore 10 or New!&#xD;
--Run a Quick speed test to your work place server via VPN and make sure you have enough bandwidth to finish your job. Install this in your Office Server.&#xD;
--Run a Quick speed test and Ensure your bandwidth Before Running a Full Backup, Transferring Huge Files, Download Large Files From the Internet, Torrent Downloads, Live Streaming, Playing Low Latency Video Games or Watching a Movie in your SMART TV from Your Media Server etc.&#xD;
+A: For HTTP use: http://YOUR--UNRAID-SERVER-IP:3000&#xD;
+B: For HTTPS use: https://YOUR-UNRAID-SERVER-IP:3001&#xD;
 &#xD;
--An application for launching a quick speed test server. Without using any commands!&#xD;
+How to use OpenSpeedTest Network Speed Test Server?&#xD;
 &#xD;
-Light Weight HTML5 Network Speed Test written in Pure Vanilla Javascript - Less than 5Kb Gzip.&#xD;
+You need two devices in between your WiFi router. Run OpenSpeedTest Server App on one device and connect directly to your router, if it's a wireless device, put it within 1.5 meters.&#xD;
 &#xD;
-No PHP or any other Server side Language required. Very little resource utilization. All you need is a Web Server Like Nginx.&#xD;
+Navigate to the URL shown in OpenSpeedTest Server App from the second device. Now you can test download and upload speed from other devices on your network to the device with OpenSpeedTest-Server.&#xD;
 &#xD;
-First test your local network speed before pointing fingers towards your ISP for slow and sluggish internet experience. Introducing Network Speed Test Server for Windows , Mac &amp;amp; Linux!. For professionals docker image and source code available.&#xD;
+Important Info :&#xD;
+- Use the Fastest Device Available with you for Server.&#xD;
+- Use 5Ghz WiFi Band for Maximum Performance.&#xD;
+- Do not minimize this Application or run in background. When you run a speed test.&#xD;
+&#xD;
+Are you experiencing slow internet usage? Endless buffering? Probably due to a congested wifi channel. You may need to change your WiFi router location or adjust your router settings.&#xD;
+&#xD;
+OpenSpeedTest-Server is here to help you to improve your internet experience. Test Your WiFi (Wireless) or Ethernet Connection (Wired Connection) and Fix your local network before pointing fingers towards your ISP for a slow and sluggish internet experience.&#xD;
+&#xD;
+Introducing HTML5 Network Speed Test Server for Android, iOS, Windows, Mac &amp;amp; Linux!. For Headless/large-scale deployments, Docker image and Source Code are available.&#xD;
+&#xD;
+Why do you need to Create Your Own SpeedTest Server?&#xD;
+&#xD;
+You can run OpenSpeedTest Server in your Home Lab,  Office Server or Cloud Server. So that you or employees who work from home can run a speed test to your office and make sure they can run everything smoothly.&#xD;
+&#xD;
+&#xD;
+Choosing between ISP1 &amp;amp; ISP2.&#xD;
+Sometimes your ISP2 is Faster than ISP1 when you test your speed on popular speed test sites. But when you connect to your Home/Office/Cloud, that slower connection may perform better. The only way to find out is to run a speed test against your infrastructure.&#xD;
+&#xD;
+&#xD;
+Troubleshooting network issues.&#xD;
+It is common even when your Internet connection is working fine, but some of the devices in your network may experience trouble getting decent connectivity to the internet. The issue might be the wrong VLAN ID or Faulty Switch. If you run a Local network speed test, you can find and fix these issues easily.&#xD;
+&#xD;
+&#xD;
+Before you add a repeater.&#xD;
+Most repeaters will reduce your network speed by 50%, so if you put it far away, it will perform worse, and if you put it too close, you will not get enough coverage if you run a Local Network speed test. Depending on the application requirements, you can decide exactly where you need to put your repeater.&#xD;
+&#xD;
+&#xD;
+Browsing experience.&#xD;
+Many useful browser extensions are out there that we all know and love. But some of them are really slowing you down for a few seconds per page you visit. You may see good performance when you test your network performance via File Transfer or Command-line utilities, but you may experience poor performance when browsing the internet. This is due to a bad browser configuration that includes unwanted extensions installed. From my experience, only keep the one you are going to use every single day. Extensions that you may use once in a while should be removed or disabled for maximum performance. If you see poor performance, try OpenSpeedTest from Private Window or Incognito Window. This tool can be used to check the browser performance and impact of Extensions on your browsing experience.&#xD;
+&#xD;
+No client-side software or plugin is required. You can run a network speed test from any device with a web browser that is IE10 or newer.&#xD;
 </Overview>
   <Category>Tools:Utilities Network:Web</Category>
   <WebUI>http://[IP]:[PORT:3000]</WebUI>
-  <TemplateURL/>
+  <TemplateURL>https://raw.githubusercontent.com/openspeedtest/unraid-docker-plugin/master/openspeedtest-server.xml</TemplateURL>
   <Icon>https://raw.githubusercontent.com/openspeedtest/iocage-plugin-OpenSpeedTest-Server/master/openspeedtest.png</Icon>
   <ExtraParams/>
   <PostArgs/>
   <CPUset/>
-  <DateInstalled>1595617605</DateInstalled>
+  <DateInstalled>1655055210</DateInstalled>
   <DonateText>Keep us Alive</DonateText>
   <DonateLink>https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&amp;amp;hosted_button_id=TY2D56BYPKEXU</DonateLink>
-  <Description>OpenSpeedTest-Server Plugin for UNRAID | HTML5 Network Performance Estimation Tool.&#xD;
-&#xD;
-You can Test your WiFi/LAN Speed.&#xD;
--Run a Speed Test from Your SMART TV &amp;amp; Make sure you have enough Bandwidth to watch 4K60FPS VIDEO FROM your NAS.&#xD;
--Run a Speed Test from Any Device with a Web Browser that is Internet Explore 10 or New!&#xD;
--Run a Quick speed test to your work place server via VPN and make sure you have enough bandwidth to finish your job. Install this in your Office Server.&#xD;
-&#xD;
--An application for launching a quick speed test server. Without using any commands!&#xD;
-&#xD;
-Light Weight HTML5 Network Speed Test written in Pure Vanilla Javascript - Less than 5Kb Gzip.&#xD;
-&#xD;
-No PHP or any other Server side Language required. Very little resource utilization. All you need is a Web Server Like Nginx.&#xD;
-&#xD;
-First test your local network speed before pointing fingers towards your ISP for slow and sluggish internet experience. Introducing Network Speed Test Server for Windows , Mac &amp;amp; Linux!. For professionals docker image and source code available.&#xD;
-</Description>
-  <Networking>
-    <Mode>bridge</Mode>
-    <Publish>
-      <Port>
-        <HostPort>3000</HostPort>
-        <ContainerPort>3000</ContainerPort>
-        <Protocol>tcp</Protocol>
-      </Port>
-    </Publish>
-  </Networking>
-  <Data/>
-  <Environment/>
-  <Labels/>
+  <Requires/>
   <Config Name="port" Target="3000" Default="" Mode="tcp" Description="Access Your SpeedTest WEB GUI via&#13;&#10; http://Your-NAS-IP:3000 " Type="Port" Display="always" Required="false" Mask="false">3000</Config>
 </Container>
